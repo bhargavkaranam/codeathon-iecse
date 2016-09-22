@@ -1,0 +1,74 @@
+html,body
+{
+ margin:0;
+ padding:0;
+ height:100%;
+ width:100%;
+}
+.container
+{
+ background:#212121;
+ height:100%;
+ width:100%;
+}
+.loader-image
+{
+ position:absolute;
+ top:50%;
+ left:50%;
+ text-align:center;
+ 
+ margin:-200px 0 0 -150px;
+}
+.iecse-logo
+{
+	width:140px;
+	padding:80px 0 0 0;
+	position:relative;
+	left:50%;
+	margin-left:-30px;
+}
+ 
+.loader
+{
+ position:absolute;
+ top:50%;
+ left:50%;
+ height:10px;
+ width:200px;
+ margin:20px 0 0 -150px;
+}
+.progress
+{
+	height:10px;
+	width:0px;
+	background:#fff;
+	
+}
+.tab
+{
+ display:none;
+ height:30px;
+ width:150px;
+ border:solid 1px grey;
+ color:#fff;
+ font-size:14px;
+ text-align:center;
+ box-sizing:border-box;
+ padding-top:5px;
+}
+.code
+{
+ display:none;
+ color:#FFF;
+ font-family : 'Roboto';
+ letter-spacing:1px;
+} 
+.terminal
+{
+ display:none;
+ color:green;
+}
+ 
+ 
+ 
